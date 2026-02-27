@@ -1,5 +1,5 @@
 config:
-  aws:region: us-west-2
+  aws:region: us-east-1
   pulumi:template: https://github.com/pulumi/templates/tree/head/vm-aws-yaml
   vm-aws-yaml:instanceType: t3.micro
   vm-aws-yaml:vpcNetworkCidr: 10.0.0.0/16
